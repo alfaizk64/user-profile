@@ -1,0 +1,20 @@
+.new-user-form {
+  margin: 1rem 0;
+}
+
+.new-user-form input,
+.new-user-form textarea {
+  display: block;
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  width: 100%;
+}
+
+.new-user-form button {
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+.error {
+  color: red;
+}

@@ -1,0 +1,43 @@
+/* Default light theme styles */
+.app.light {
+  background-color: white;
+  color: black;
+}
+
+.app.light .profile {
+  border: 1px solid #ddd;
+}
+
+/* Dark mode styles */
+.app.dark {
+  background-color: #333;
+  color: white;
+}
+
+.app.dark .profile {
+  border: 1px solid #555;
+}
+
+/* Additional common styling */
+.profile-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+.new-user-form input,
+.new-user-form textarea {
+  width: 100%;
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+}
+
+.error {
+  color: red;
+}
